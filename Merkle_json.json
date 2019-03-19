@@ -1,0 +1,55 @@
+[
+    {
+        "resourceType": {
+            "Value": "Patient",
+            "Hash": "835043ec8e6b792147ef928d14b2222534bfaeb36c321f991df59390116a6bc7",
+            "Proof": [
+                {
+                    "right": "50d858e0985ecc7f60418aaf0cc5ab587f42c2570a884095a9e8ccacd0f6545c"
+                },
+                {
+                    "right": "e93fde4cf5b7b706092f44bf7aeda9530e6358a4c4f87ecbdb77f8d9fc22306f"
+                }
+            ]
+        },
+        "id": {
+            "Value": "example",
+            "Hash": "50d858e0985ecc7f60418aaf0cc5ab587f42c2570a884095a9e8ccacd0f6545c",
+            "Proof": [
+                {
+                    "left": "835043ec8e6b792147ef928d14b2222534bfaeb36c321f991df59390116a6bc7"
+                },
+                {
+                    "right": "e93fde4cf5b7b706092f44bf7aeda9530e6358a4c4f87ecbdb77f8d9fc22306f"
+                }
+            ]
+        },
+        "gender": {
+            "Value": "male",
+            "Hash": "0d248e82c62c9386878327d491c762a002152d42ab2c391a31c44d9f62675ddf",
+            "Proof": [
+                {
+                    "right": "7ee1993769b5a61d07edab5aca1ef8a15ceb051317f475186dd15ad659e8dbbf"
+                },
+                {
+                    "left": "08342bca384efed103b8dfc0d2756f23504997330a9b9278e0c975338e571072"
+                }
+            ]
+        },
+        "birthDate": {
+            "Value": "1974-12-25",
+            "Hash": "7ee1993769b5a61d07edab5aca1ef8a15ceb051317f475186dd15ad659e8dbbf",
+            "Proof": [
+                {
+                    "left": "0d248e82c62c9386878327d491c762a002152d42ab2c391a31c44d9f62675ddf"
+                },
+                {
+                    "left": "08342bca384efed103b8dfc0d2756f23504997330a9b9278e0c975338e571072"
+                }
+            ]
+        }
+    },
+    {
+        "Merkel_root": "4b2f10d377f40861d41beec6d32bbf9127370abd83bef0e55dd7d1c902c01d42"
+    }
+]
